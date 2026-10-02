@@ -1,2 +1,27 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
 .env
-node_modules
+**/.env
+
+# Databases & SQLite storage
+*.sqlite
+*.db
+**/*.sqlite
+
+# Build outputs
+dist/
+build/
+**/dist/
+**/build/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
